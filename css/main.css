@@ -1,6 +1,9 @@
 body {
   margin: 0; }
 
+li {
+  list-style: none; }
+
 header {
   background-image: url("../images/header.jpg");
   background-size: 100% 100%;
@@ -12,7 +15,6 @@ nav {
 
 .title li {
   display: inline-block;
-  list-style: none;
   border-right: 1px solid white;
   border-color: rgba(255, 255, 255, 0.1);
   padding: 0 30px;
@@ -47,13 +49,27 @@ h1 {
 
 .part2 {
   background-color: #f2f2f2; }
-  .part2 h2 {
-    margin: 0;
-    font-size: 42px;
-    color: #6e6e6e; }
-
-hr {
-  display: block;
-  color: #f3f3f3; }
+  .part2 .part2-content {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center; }
+  .part2 .part2-1 {
+    color: #6e6e6e;
+    padding: 50px 0; }
+    .part2 .part2-1 h2 {
+      margin: 0;
+      font-size: 42px; }
+    .part2 .part2-1 p {
+      line-height: 20px; }
+    .part2 .part2-1 .black {
+      color: #000000; }
+    .part2 .part2-1 .green {
+      color: #80ba8d; }
+  .part2 hr {
+    display: block;
+    color: #f3f3f3; }
+  .part2 .part2-2 ul li {
+    display: inline-block;
+    width: 33%; }
 
 /*# sourceMappingURL=main.css.map */
