@@ -16,17 +16,17 @@ nav {
     display: inline-block;
     list-style: none;
     border-right: 1px solid white;
-    border-color: rgba(0,0,0,0.1);
+    border-color: rgba(255,255,255,0.1);
     padding: 0 30px;
     font-size: 14px;
     line-height: 72px;
+
+    a {
+        color: white;
+        text-decoration: none;    
+    }
 }
 
-.title li a {
-    color: white;
-    text-decoration: none;
-
-}
 
 .title li:last-child {
     border-right: none;
@@ -37,28 +37,34 @@ nav {
     margin: 0;
     text-align: center;
 }
+
 .sunxixi {
     height: 495px;
     text-align: center;
+
+    p {
+        font-size: 22px;
+        margin-top:20px;
+        color:white;
+    }
 }
 h1{
-    margin-top:172px;
+    margin: 0;
+    padding-top:172px;
     font-size: 80px;
     color: white;
     font-weight: bold;
 }
-.state{
-    font: 22px;
-    margin-top:20px;
-    color:white;
-}
+
+
 .part2{
     background-color: #f2f2f2;
-}
-.part2 h2{
-    margin:0;
-    font-size: 42px;
-    color: #6e6e6e;
+    
+    h2{
+        margin:0;
+        font-size: 42px;
+        color: #6e6e6e;
+    }
 }
 hr{
     display:block;
