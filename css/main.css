@@ -68,7 +68,7 @@ h1 {
   .part2 hr {
     margin: 0;
     display: block;
-    color: #f3f3f3; }
+    border: 0.5px solid #f3f3f3; }
   .part2 .part2-2 ul {
     margin: 0;
     padding: 0;
@@ -101,13 +101,21 @@ h1 {
   padding-right: 0; }
 
 .part3-1 {
+  font-size: 16px;
+  margin: 0;
+  padding: 50px 30px;
   background-color: #ffffff;
   margin-top: 60px;
-  padding: 0; }
+  margin: 85px;
+  padding: 0;
+  white-space: nowrap; }
   .part3-1 li {
+    box-sizing: border-box;
     display: inline-block;
-    width: 577px;
-    text-align: center; }
+    white-space: normal;
+    width: 50%;
+    text-align: center;
+    padding: 0 25px; }
   .part3-1 img {
     width: 577px;
     height: 202px;
@@ -117,23 +125,26 @@ h1 {
     font-size: 28px;
     margin: 0; }
   .part3-1 p {
+    box-sizing: border-box;
     color: #a3a3a3;
-    font-size: 16px;
-    margin: 0;
-    padding: 50px 20px;
     line-height: 20px; }
 
-.part3-1 li:first-child {
-  padding-right: 50px; }
-
 .part3-2 {
+  font-size: 16px;
+  margin: 0;
+  padding: 50px 30px;
   background-color: #ffffff;
   margin-top: 60px;
-  padding: 0; }
+  margin: 85px;
+  padding: 0;
+  white-space: nowrap; }
   .part3-2 li {
+    box-sizing: border-box;
     display: inline-block;
-    width: 577px;
-    text-align: center; }
+    white-space: normal;
+    width: 50%;
+    text-align: center;
+    padding: 0 25px; }
   .part3-2 img {
     width: 577px;
     height: 202px;
@@ -143,17 +154,22 @@ h1 {
     font-size: 28px;
     margin: 0; }
   .part3-2 p {
+    box-sizing: border-box;
     color: #a3a3a3;
-    font-size: 16px;
-    margin: 0;
-    padding: 50px 20px;
     line-height: 20px; }
 
-.part3-2 li:first-child {
-  padding-right: 50px; }
-
 .part4 {
-  background-image: url(../images/header.jpg); }
+  height: 300px;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: 0px -300px;
+  background-size: cover; }
+  .part4 p {
+    padding: 120px 200px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    color: white; }
 
 footer {
   background-color: #161616; }
@@ -169,17 +185,26 @@ footer {
     margin-bottom: 50px;
     text-align: center; }
   footer section {
-    display: inline-block; }
+    margin: 50px 0 91px 0; }
+    footer section div {
+      display: flex;
+      justify-content: center; }
+      footer section div a {
+        text-decoration: none;
+        padding: 0 10px; }
   footer hr {
     margin: 0;
     display: block;
+    margin: 0 auto;
     width: 1200px;
-    color: rgba(130, 133, 128, 0.01); }
+    border: 0.5px solid #424242; }
   footer .p2 {
     margin: 0;
     color: #2d2d2d;
     height: 110px;
-    text-align: center; }
+    box-sizing: border-box;
+    text-align: center;
+    padding: 45px 0; }
     footer .p2 span {
       color: #424242; }
 
